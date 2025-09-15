@@ -723,6 +723,13 @@ video {
   -webkit-line-clamp: 1 !important;
 }
 
+.\!line-clamp-3 {
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+}
+
 .block {
   display: block;
 }
@@ -781,8 +788,8 @@ video {
   height: 100vh;
 }
 
-.w-16 {
-  width: 4rem;
+.w-20 {
+  width: 5rem;
 }
 
 .w-5 {
@@ -942,6 +949,10 @@ video {
   scroll-behavior: smooth;
 }
 
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -992,7 +1003,7 @@ video {
 
 .border-primary {
   --tw-border-opacity: 1;
-  border-color: rgb(68 172 141 / var(--tw-border-opacity));
+  border-color: rgb(6 15 74 / var(--tw-border-opacity));
 }
 
 .border-slate-200 {
@@ -1012,7 +1023,7 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(68 172 141 / var(--tw-bg-opacity));
+  background-color: rgb(6 15 74 / var(--tw-bg-opacity));
 }
 
 .bg-slate-200 {
@@ -1047,8 +1058,8 @@ video {
 }
 
 .from-primary {
-  --tw-gradient-from: #44ac8d var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(68 172 141 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: #060f4a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(6 15 74 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1061,7 +1072,7 @@ video {
 }
 
 .to-primary-hover {
-  --tw-gradient-to: #1e717d var(--tw-gradient-to-position);
+  --tw-gradient-to: #7a9eff var(--tw-gradient-to-position);
 }
 
 .to-100\% {
@@ -1081,7 +1092,7 @@ video {
 }
 
 .fill-primary {
-  fill: #44ac8d;
+  fill: #060f4a;
 }
 
 .fill-slate-200 {
@@ -1151,11 +1162,6 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-8 {
@@ -1403,7 +1409,7 @@ h3 {
   --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-bg-opacity: 1;
-  background-color: rgb(68 172 141 / var(--tw-bg-opacity));
+  background-color: rgb(6 15 74 / var(--tw-bg-opacity));
   --tw-content: '';
   content: var(--tw-content);
 }
@@ -1417,7 +1423,7 @@ h3 {
   --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-bg-opacity: 1;
-  background-color: rgb(30 113 125 / var(--tw-bg-opacity));
+  background-color: rgb(122 158 255 / var(--tw-bg-opacity));
   --tw-content: '';
   content: var(--tw-content);
 }
@@ -1492,12 +1498,12 @@ header.activeHeader {
 
 .hover\:border-primary-hover:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(30 113 125 / var(--tw-border-opacity));
+  border-color: rgb(122 158 255 / var(--tw-border-opacity));
 }
 
 .hover\:\!bg-primary-hover:hover {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 113 125 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(122 158 255 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-green-600:hover {
@@ -1507,7 +1513,7 @@ header.activeHeader {
 
 .hover\:bg-primary-hover:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 113 125 / var(--tw-bg-opacity));
+  background-color: rgb(122 158 255 / var(--tw-bg-opacity));
 }
 
 .hover\:stroke-slate-200:hover {
@@ -1525,7 +1531,7 @@ header.activeHeader {
 }
 
 .focus\:outline-primary:focus {
-  outline-color: #44ac8d;
+  outline-color: #060f4a;
 }
 
 .group:hover .group-hover\:scale-125 {
@@ -1623,8 +1629,8 @@ header.activeHeader {
     display: none;
   }
 
-  .md\:w-20 {
-    width: 5rem;
+  .md\:w-24 {
+    width: 6rem;
   }
 
   .md\:max-w-\[400px\] {
@@ -1696,8 +1702,8 @@ header.activeHeader {
 }
 
 @media (min-width: 1280px) {
-  .xl\:w-24 {
-    width: 6rem;
+  .xl\:w-28 {
+    width: 7rem;
   }
 }
 
@@ -2064,13 +2070,13 @@ header.activeHeader {
 }
 
 .\[\&_\.user-testimoni_img\]\:from-primary-hover .user-testimoni img {
-  --tw-gradient-from: #1e717d var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(30 113 125 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: #7a9eff var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(122 158 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .\[\&_\.user-testimoni_img\]\:to-primary .user-testimoni img {
-  --tw-gradient-to: #44ac8d var(--tw-gradient-to-position);
+  --tw-gradient-to: #060f4a var(--tw-gradient-to-position);
 }
 
 .\[\&_\.user-testimoni_img\]\:p-1 .user-testimoni img {
@@ -2095,12 +2101,12 @@ header.activeHeader {
 
 .\[\&_a\]\:border-primary a {
   --tw-border-opacity: 1;
-  border-color: rgb(68 172 141 / var(--tw-border-opacity));
+  border-color: rgb(6 15 74 / var(--tw-border-opacity));
 }
 
 .\[\&_a\]\:bg-primary a {
   --tw-bg-opacity: 1;
-  background-color: rgb(68 172 141 / var(--tw-bg-opacity));
+  background-color: rgb(6 15 74 / var(--tw-bg-opacity));
 }
 
 .\[\&_a\]\:px-5 a {
@@ -2126,12 +2132,12 @@ header.activeHeader {
 
 .hover\:\[\&_a\]\:border-primary-hover a:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(30 113 125 / var(--tw-border-opacity));
+  border-color: rgb(122 158 255 / var(--tw-border-opacity));
 }
 
 .hover\:\[\&_a\]\:bg-primary-hover a:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 113 125 / var(--tw-bg-opacity));
+  background-color: rgb(122 158 255 / var(--tw-bg-opacity));
 }
 
 .\[\&_h3\]\:relative h3 {
@@ -2249,5 +2255,5 @@ header.activeHeader {
 
 .hover\:\[\&_li_a\]\:text-primary-hover li a:hover {
   --tw-text-opacity: 1;
-  color: rgb(30 113 125 / var(--tw-text-opacity));
+  color: rgb(122 158 255 / var(--tw-text-opacity));
 }

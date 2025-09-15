@@ -1,18 +1,19 @@
 <?php
 
-// $domain = 'http://localhost/travel/jegegroad.web.id/';
-$domain = 'https://jegegroad.web.id/';
-$brand = 'Jegeg Road';
+// $domain = 'http://localhost/putra-tunggal-trans.web.id/';
+$domain = 'https://jasa-web-2000.github.io/putra-tunggal-trans.web.id/';
+$brand = 'Putra Tunggal Trans';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.png';
-$title = "Travel Surabaya Terbaik Bersama " . $brand;
-$desc = "Jasa Travel Surabaya dengan harga murah dan siap antar jemput 24 jam | " . $brand;
-$telp = '0821-4622-0831';
+$title = "Travel Jawa Timur - Jakarta PP " . $brand;
+$desc = "Jasa Travel Jawa Timur - Jakarta pulang pergi dengan sistem door to door dan via tol trans jawa | " . $brand;
+$telp = '0857-8406-1891';
 // $telp2 = '0857-9190-4615';
-$alamat = 'MPP4+P22 Kedurus, Surabaya, Jawa Timur';
+$alamat = '6XX3+XXQ Grogol, Kabupaten Kediri, Jawa Timur';
 
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3957.3614215881917!2d112.7024376750002!3d-7.31323339269474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTgnNDcuNiJTIDExMsKwNDInMTguMSJF!5e0!3m2!1sid!2sid!4v1756882095729!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3953.374483205254!2d111.95240917500456!3d-7.75004549226876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDUnMDAuMiJTIDExMcKwNTcnMTcuOSJF!5e0!3m2!1sid!2sid!4v1757939882234!5m2!1sid!2sid';
+
 
 function res_telp($telp)
 {
@@ -51,55 +52,82 @@ $menu = [
 
 
 $rute = [
-  "Travel Surabaya Denpasar",
-  "Travel Surabaya Bali",
-  "Travel Surabaya Banyuwangi",
-  "Travel Surabaya Kediri",
-  "Travel Surabaya Tulungagung",
-  "Travel Surabaya Solo",
-  "Travel Surabaya Jogja",
-  "Travel Surabaya Magelang",
-  "Travel Surabaya Semarang",
-  "Travel Surabaya Jakarta",
-  "Travel Surabaya Pekalongan",
-  "Travel Surabaya Cirebon",
-  "Travel Surabaya Kuningan",
-  "Travel Surabaya Sumedang",
-  "Travel Surabaya Singaraja",
-  "Travel Surabaya Bandung",
-  "Travel Surabaya Madiun",
-  "Travel Surabaya Ponorogo",
-  "Travel Surabaya Jember",
-  "Travel Surabaya Cilacap",
-  "Travel Surabaya Banjarnegara",
+  "Travel Jakarta Bangkalan",
+  "Travel Jakarta Banyuwangi",
+  "Travel Jakarta Blitar",
+  "Travel Jakarta Bojonegoro",
+  "Travel Jakarta Bondowoso",
+  "Travel Jakarta Gresik",
+  "Travel Jakarta Jember",
+  "Travel Jakarta Jombang",
+  "Travel Jakarta Kediri",
+  "Travel Jakarta Lamongan",
+  "Travel Jakarta Lumajang",
+  "Travel Jakarta Madiun",
+  "Travel Jakarta Magetan",
+  "Travel Jakarta Malang",
+  "Travel Jakarta Mojokerto",
+  "Travel Jakarta Nganjuk",
+  "Travel Jakarta Ngawi",
+  "Travel Jakarta Pacitan",
+  "Travel Jakarta Pamekasan",
+  "Travel Jakarta Pasuruan",
+  "Travel Jakarta Ponorogo",
+  "Travel Jakarta Probolinggo",
+  "Travel Jakarta Sampang",
+  "Travel Jakarta Sidoarjo",
+  "Travel Jakarta Situbondo",
+  "Travel Jakarta Sumenep",
+  "Travel Jakarta Trenggalek",
+  "Travel Jakarta Tuban",
+  "Travel Jakarta Tulungagung",
+  "Travel Jakarta Surabaya",
+  "Travel Jakarta Batu",
 
   // pp
 
-  "Travel Denpasar Surabaya",
-  "Travel Bali Surabaya",
-  "Travel Banyuwangi Surabaya",
-  "Travel Kediri Surabaya",
-  "Travel Tulungagung Surabaya",
-  "Travel Solo Surabaya",
-  "Travel Jogja Surabaya",
-  "Travel Magelang Surabaya",
-  "Travel Semarang Surabaya",
-  "Travel Jakarta Surabaya",
-  "Travel Pekalongan Surabaya",
-  "Travel Cirebon Surabaya",
-  "Travel Kuningan Surabaya",
-  "Travel Sumedang Surabaya",
-  "Travel Singaraja Surabaya",
-  "Travel Bandung Surabaya",
-  "Travel Madiun Surabaya",
-  "Travel Ponorogo Surabaya",
-  "Travel Jember Surabaya",
-  "Travel Cilacap Surabaya",
-  "Travel Banjarnegara Surabaya",
-
+  "Travel Bangkalan Jakarta",
+  "Travel Banyuwangi Jakarta",
+  "Travel Blitar Jakarta",
+  "Travel Bojonegoro Jakarta",
+  "Travel Bondowoso Jakarta",
+  "Travel Gresik Jakarta",
+  "Travel Jember Jakarta",
+  "Travel Jombang Jakarta",
+  "Travel Kediri Jakarta",
+  "Travel Lamongan Jakarta",
+  "Travel Lumajang Jakarta",
+  "Travel Madiun Jakarta",
+  "Travel Magetan Jakarta",
+  "Travel Malang Jakarta",
+  "Travel Mojokerto Jakarta",
+  "Travel Nganjuk Jakarta",
+  "Travel Ngawi Jakarta",
+  "Travel Pacitan Jakarta",
+  "Travel Pamekasan Jakarta",
+  "Travel Pasuruan Jakarta",
+  "Travel Ponorogo Jakarta",
+  "Travel Probolinggo Jakarta",
+  "Travel Sampang Jakarta",
+  "Travel Sidoarjo Jakarta",
+  "Travel Situbondo Jakarta",
+  "Travel Sumenep Jakarta",
+  "Travel Trenggalek Jakarta",
+  "Travel Tuban Jakarta",
+  "Travel Tulungagung Jakarta",
+  "Travel Surabaya Jakarta",
+  "Travel Batu Jakarta",
 ];
 
 $kota = [
+  [
+    'Kediri',
+    'kediri.jpg',
+  ],
+  [
+    'Jakarta',
+    'jakarta.jpg',
+  ],
   [
     'Surabaya',
     'surabaya.jpg',
@@ -107,14 +135,6 @@ $kota = [
   [
     'Banyuwangi',
     'banyuwangi.jpg',
-  ],
-  [
-    'Semarang',
-    'semarang.jpg',
-  ],
-  [
-    'Bali',
-    'bali.jpg',
   ],
 ];
 
@@ -172,12 +192,12 @@ $galeri = [
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <header class="">
     <div class="container !py-0">
-      <div class="flex justify-between py-3">
+      <div class="flex justify-between">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
               src="<?= $domain . $logoPanjang ?>"
-              class="w-16 md:w-20 xl:w-24 m-auto rounded"
+              class="w-20 md:w-24 xl:w-28 m-auto rounded"
               alt="logo" />
           </a>
         </div>
@@ -420,35 +440,35 @@ $galeri = [
                 </div>
 
                 <!-- <div class="col-span-full text-sm">
-                  <label
-                    for="nomor"
-                    class="block cursor-pointer font-medium">Nomor Whatsapp</label>
-                  <div class="mt-1">
-                    <input
-                      min="08"
-                      type="number"
-                      requiblue
-                      name="nomor"
-                      id="nomor"
-                      autocomplete="off"
-                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-primary placeholder:text-gray-400 bg-slate-50" />
+                    <label
+                      for="nomor"
+                      class="block cursor-pointer font-medium">Nomor Whatsapp</label>
+                    <div class="mt-1">
+                      <input
+                        min="08"
+                        type="number"
+                        requiblue
+                        name="nomor"
+                        id="nomor"
+                        autocomplete="off"
+                        class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-primary placeholder:text-gray-400 bg-slate-50" />
+                    </div>
                   </div>
-                </div>
 
-                <div class="col-span-full text-sm">
-                  <label
-                    for="jadwal"
-                    class="block cursor-pointer font-medium">Jadwal Keberangkatan</label>
-                  <div class="mt-1">
-                    <input
-                      type="datetime-local"
-                      requiblue
-                      name="jadwal"
-                      id="jadwal"
-                      autocomplete="off"
-                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-primary placeholder:text-gray-400 bg-slate-50" />
-                  </div>
-                </div> -->
+                  <div class="col-span-full text-sm">
+                    <label
+                      for="jadwal"
+                      class="block cursor-pointer font-medium">Jadwal Keberangkatan</label>
+                    <div class="mt-1">
+                      <input
+                        type="datetime-local"
+                        requiblue
+                        name="jadwal"
+                        id="jadwal"
+                        autocomplete="off"
+                        class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-primary placeholder:text-gray-400 bg-slate-50" />
+                    </div>
+                  </div> -->
 
                 <button
                   class="col-span-full px-5 py-2 border-2 border-primary hover:border-primary-hover bg-primary hover:bg-primary-hover text-slate-200 rounded-lg transition-all relative"
@@ -490,10 +510,10 @@ $galeri = [
                   alt="<?= 'rute ' . $item ?>"
                   class="" />
                 <div class="">
-                  <h3 class="!line-clamp-1 block">
+                  <h3 class="!line-clamp-1 block whitespace-nowrap">
                     <?= $item ?>
                   </h3>
-                  <p class="text-sm opacity-80 my-2">Rekomendasi <?= $item ?> pp dengan sistem door to door dan perjalanan via tol.</p>
+                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Rekomendasi <?= $item ?> pp dengan sistem door to door dan perjalanan via tol.</p>
                   <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Pesan Travel</a>
                 </div>
               </div>
@@ -518,7 +538,7 @@ $galeri = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
-                <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan <a href="https://jasatravel.web.id" class="underline" target="_blank">travel</a> ke berbagai daerah, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
+                <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan <a href="https://jasatravel.web.id/rute-travel/dari-kabupaten-kediri/ke-dki-jakarta/3506/31" class="underline" target="_blank">Travel Kediri Jakarta</a> pulang pergi, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Carter Regular</li>
@@ -529,10 +549,10 @@ $galeri = [
               </ul>
             </div>
             <!-- <div class="grid grid-cols-2">
-              <div class="col-span-full">
-                <p></p>
-              </div>
-            </div> -->
+                <div class="col-span-full">
+                  <p></p>
+                </div>
+              </div> -->
           </div>
         </div>
       </div>
@@ -1050,22 +1070,22 @@ $galeri = [
     </a>
     <?php echo isset($telp2) ?
       '<a
-      href="' . $link_whatsapp2 . '"
-      target="_blank"
-      class="fixed right-5 !mb-[73px] bottom-5 bg-green-700 hover:bg-green-600 transition-all duration-700 z-[99] rounded-full p-2">
-      <svg
-        aria-hidden="true"
-        role="img"
-        height="1em"
-        width="1em"
-        viewBox="0 0 448 512"
-        xmlns="http://www.w3.org/2000/svg"
-        class="size-10">
-        <path
-          class="fill-slate-200"
-          d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
-      </svg>
-    </a>'
+        href="' . $link_whatsapp2 . '"
+        target="_blank"
+        class="fixed right-5 !mb-[73px] bottom-5 bg-green-700 hover:bg-green-600 transition-all duration-700 z-[99] rounded-full p-2">
+        <svg
+          aria-hidden="true"
+          role="img"
+          height="1em"
+          width="1em"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+          class="size-10">
+          <path
+            class="fill-slate-200"
+            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
+        </svg>
+      </a>'
       : null ?>
     <p class="text-center text-sm text-slate-500">
       &#169; copyright - developed by
